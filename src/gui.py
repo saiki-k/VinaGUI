@@ -297,25 +297,6 @@ diff_logdir_cb.grid(row=2, column=2, sticky="NEWS", padx=2.5, pady=2.5)
 
 # ------------------------------------------------------------------------------------
 
-
-# ------------------------------------------------------------------------------------
-# TEST VALUES
-# ------------------------------------------------------------------------------------
-
-# def populate_test_vals():
-# 	ml_var.set('0')
-# 	ligand_path.set("E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\test\\Ligands\\PhbA.pdbqt")
-# 	receptor_path.set("E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\test\\Proteins\\1HBK.pdbqt")
-# 	ss_center_x.set("-5"); ss_center_y.set("17"); ss_center_z.set("13")
-# 	ss_size_x.set("18"); ss_size_y.set("16"); ss_size_z.set("16")
-# 	output_path.set("E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\test\\_Output")
-# 	logfiles_path.set("E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\test\\_Output\\Logfiles")
-
-# test_values_button = ttk.Button(inputs_frame, text="TEST VALUES", command=populate_test_vals)
-# test_values_button.grid(row=5, column=0, sticky="EW", padx=10, pady=10, ipadx=10, ipady=10)
-
-# ------------------------------------------------------------------------------------
-
 # ***
 
 # ------------------------------------------------------------------------------------
