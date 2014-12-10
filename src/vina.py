@@ -13,9 +13,6 @@ VINA_BIN_DIR = os.path.join(MAIN_DIR, OS_DIR)
 VINA_EXE = os.path.join(VINA_BIN_DIR, "vina")
 VINA_SPLIT_EXE = os.path.join(VINA_BIN_DIR, "vina_split")
 
-# Permissions for execution
-# os.chmod(SRC_DIR, stat.S_IXUSR | stat.S_IXGRP | stat.S_IXOTH)
-
 
 def vina(
 		lig_path, rec_path, flex_path, 
@@ -71,7 +68,6 @@ def vina(
 
 
 def vina_split(input_mol):
-
 	pass
 
 	# INPUT ARGUMENT
@@ -80,13 +76,6 @@ def vina_split(input_mol):
 	# SUBPROCESS CALL
 	# subprocess.call(VINA_SPLIT_EXE + input_arg, shell=True)
 
-
-# EXAMPLE
-# vina("E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\Ligands\\PhbA.pdbqt",
-# 	   "E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\Proteins\\1HBK.pdbqt", 
-#  	   "", ("-5", "17", "13"), ("18", "16", "16"),
-#  	   "E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\_Output",
-#  	   "E:\\Dropbox\\B.I.T.S\\Academics\\PS-II\\Work\\Python\\VinaGUI\\VinaGUI_v1.0\\_Output\\Logfiles")
 
 # Doesn't belong here...
 # def status_msg(receptor, ligand, start=True):
